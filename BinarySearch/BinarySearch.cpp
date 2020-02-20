@@ -9,7 +9,9 @@ int arr[] = {
 //write a function to search a given element x in arr[].
 bool searchFromArray(int sortedArray[],int num,int start, int end){
     int mid =  std::floor((end+start)/2);
-    std::cout<<mid<<" "<<start<<" "<<end<<"\n";
+    
+    //for debug
+    //std::cout<<mid<<" "<<start<<" "<<end<<"\n";
 
     if(sortedArray[mid] > num){
         //go left
